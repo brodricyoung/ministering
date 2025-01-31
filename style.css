@@ -27,6 +27,11 @@ header {
     background-color: #E0AC00;
 }
 
+/* footer styling */
+footer {
+    padding: 20px;
+}
+
 /* Table Styling */
 table {
     width: 100%;
@@ -36,7 +41,7 @@ table {
 
 /* Companionship Group Styling */
 .companionship {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 20px;
     background-color: black;
 }
@@ -76,11 +81,6 @@ tr:nth-child(odd) td {
 /* Even Row Background Color */
 tr:nth-child(even) td {
     background-color: #ffffff;
-}
-
-/* Add some spacing for better readability */
-th, td {
-    padding: 12px 20px;
 }
 
 
