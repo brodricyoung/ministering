@@ -36,12 +36,14 @@ footer {
 table {
     width: 100%;
     table-layout: fixed;
-    margin-top: 30px;
+    margin-top: 15px;
     border-collapse: collapse;
+    margin-bottom: 15px;
 }
 
 /* Companionship Group Styling */
 .companionship {
+    
     margin-bottom: 30px;
     padding: 30px;
     background-color: black;
