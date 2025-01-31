@@ -86,12 +86,7 @@ tr:nth-child(even) td {
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
-    /* Keep the header rows side by side */
-    th {
-        display: inline-block;
-        width: 50%; /* Equal width for both headers */
-        text-align: center; /* Ensure the text is centered */
-    }
+
 
     /* Make data cells block elements to stack */
     td {
@@ -103,12 +98,6 @@ tr:nth-child(even) td {
         text-align: center;
     }
 
-    /* Adjust the table layout to be more mobile-friendly */
-    tr {
-        margin-bottom: 20px;
-        display: block;
-        border: none;
-    }
 
     /* Make the companionships stack on smaller screens */
     .companionship {
