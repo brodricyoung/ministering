@@ -64,7 +64,6 @@ td {
     text-align: center; /* Center the other names below the headers */
     font-size: 14px;
     border-radius: 5px;
-    transition: background-color 0.3s;
 }
 
 
@@ -90,8 +89,6 @@ tr:nth-child(even) td {
 
     /* Make data cells block elements to stack */
     td {
-        display: block;
-        width: 100%;
         box-sizing: border-box;
         padding: 10px;
         font-size: 14px;
