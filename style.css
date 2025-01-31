@@ -12,7 +12,7 @@
 body {
     font-family: "Contrail One", 'Roboto', sans-serif;
     background-color: #f7f7f7;
-    padding: 20px;
+    padding: 30px;
 }
 
 /* Top header styling*/
@@ -22,14 +22,14 @@ header {
     font-size: larger;
     font-weight: 900;
     text-align: center;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 30px;
+    margin-bottom: 30px;
     background-color: #E0AC00;
 }
 
 /* footer styling */
 footer {
-    padding: 20px;
+    padding: 30px;
 }
 
 /* Table Styling */
@@ -42,7 +42,7 @@ table {
 /* Companionship Group Styling */
 .companionship {
     margin-bottom: 30px;
-    padding: 20px;
+    padding: 30px;
     background-color: black;
 }
 
@@ -105,15 +105,16 @@ tr:nth-child(even) td {
 
     /* Adjust the table layout to be more mobile-friendly */
     tr {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         display: block;
         border: none;
     }
 
     /* Make the companionships stack on smaller screens */
     .companionship {
-        margin-bottom: 10px;
-        padding: 10px;
+
+        margin-bottom: 20px;
+        padding: 20px;
         background-color: black;
     }
 
