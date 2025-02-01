@@ -62,7 +62,6 @@ th {
 /* Table Data */
 td {
     padding: 12px 20px;
-    background-color: #ecf0f1;
     text-align: center; /* Center the other names below the headers */
     font-size: 14px;
     border-radius: 5px;
@@ -84,6 +83,47 @@ tr:nth-child(even) td {
     background-color: #ffffff;
 }
 
+.hidden {
+    display: none;
+}
+
+.highlight-header {
+    background-color: yellow;
+    border-bottom: 7px solid #2c3e50;
+    
+}
+
+.highlight-row, tr.highlight-row td {
+    background-color: yellow;
+}
+
+#search, .scroll-to {
+    max-width: fit-content;
+    margin: 0 auto;
+}
+#search-bar {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+#search-button {
+    font-size: 15px;
+    width: 60px;
+}
+
+#scroll-to-companionship {
+    width: 180px;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+#scroll-to-ministers {
+    width: 180px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
