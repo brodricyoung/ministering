@@ -16,13 +16,13 @@
             let allHeaders = document.querySelectorAll("th");
             allHeaders.forEach(th => th.classList.remove("highlight-header"));
             
-            let allRows = document.querySelectorAll("tr");
-            allRows.forEach(tr => tr.classList.remove("highlight-row"));
+            let allRows = document.querySelectorAll("td");
+            allRows.forEach(td => td.classList.remove("highlight-row"));
 
             // Get the input value and convert to lowercase
             let input = document.getElementById("search-bar").value.toLowerCase();
             let headers = document.querySelectorAll("th");
-            let rows = document.querySelectorAll("tr");
+            let rows = document.querySelectorAll("td");
 
             let matchedHeader = false;
             let matchedRow = false;
@@ -35,7 +35,7 @@
                     header.classList.add("highlight-header");
                     matchedHeader = true;
                     headerMatch = header; // Store the header match
-                    break;  // Stop after the first match is found
+                    // break;  // Stop after the first match is found
                 }
             }
 
@@ -47,7 +47,7 @@
                     row.classList.add("highlight-row");
                     matchedRow = true;
                     rowMatch = row; // Store the row match
-                    break;  // Stop after the first match is found
+                    // break;  // Stop after the first match is found
                 }
             }
 

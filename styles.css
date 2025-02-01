@@ -88,13 +88,13 @@ tr:nth-child(even) td {
 }
 
 .highlight-header {
-    background-color: yellow;
+    background-color: yellow !important;
     border-bottom: 7px solid #2c3e50;
     
 }
 
-.highlight-row, tr.highlight-row td {
-    background-color: yellow;
+.highlight-row{
+    background-color: yellow !important;
 }
 
 #search, .scroll-to {
